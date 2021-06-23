@@ -25,10 +25,10 @@ console.log(Header);
 describe('Header', () => {
   it('コンポーネントが存在する', () => {
 
-    const wrapper = mount(Header)
+    const wrapper = 1
     
     // expect()の中身がtrueだったらテスト合格
-    expect(wrapper.exists()).toBeTruthy()
+    expect(wrapper).toBeTruthy()
   })
 })
 describe('Shop', () => {
